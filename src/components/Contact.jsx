@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-y-[50px] items-center">
+    <div id="contact" className="flex flex-col gap-y-[50px] items-center">
       <div className="flex flex-col w-fit text-ke_blue text-2xl sm:text-3xl md:text-4xl font-bold mt-[140px] font-monty group">
         <span>Contact Us</span>
         <div className="bg-ke_orange ml-auto h-[6px] w-[120px] group-hover:w-full rounded transition-all duration-[500ms] ease-in-out"></div>
@@ -57,8 +57,8 @@ const Contact = () => {
             className="font-monty md:w-[80%] md:mt-[10px] hover:underline"
             target="_blank"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fuga
-            unde nihil.
+            Opposite Lemon Tree Hotel, Sector-61, Ullwash Gaon, Gurugram,
+            Haryana - 122004
           </a>
         </div>
 

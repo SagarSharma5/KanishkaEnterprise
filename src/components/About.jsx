@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-y-[50px] items-center md:mt-[150px] mt-[100px]">
+    <div
+      id="about"
+      className="flex flex-col gap-y-[50px] items-center md:mt-[150px] mt-[100px]"
+    >
       <heading className="flex flex-col w-fit text-ke_blue text-2xl sm:text-3xl md:text-4xl font-bold  font-monty group">
         Who Are We?
         <div className="bg-ke_orange ml-auto h-[6px] w-[180px] group-hover:w-full rounded transition-all duration-[500ms] ease-in-out"></div>

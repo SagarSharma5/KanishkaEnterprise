@@ -33,10 +33,14 @@ const Carousel = ({ images }) => {
           supplies
         </div>
 
-        <div className="flex items-center justify-end sm:justify-center w-full">
-          <button className="z-[9999] bg-ke_blue rounded-full px-[20px] py-[5px] mt-[55px] md:mt-[100px] text-lg md:text-3xl md:px-[35px] md:py-[15px] font-monty w-fit shadow-lg shadow-black md:hover:scale-[105%] transition-all ease-in duration-[100ms] font-semibold">
+        <div className="flex items-center justify-end sm:justify-center w-full cursor-pointer">
+          <a
+            href="https://wa.me/+918010514242"
+            target="_blank"
+            className="z-[9999] bg-ke_blue rounded-full px-[20px] py-[5px] mt-[55px] md:mt-[100px] text-lg md:text-3xl md:px-[35px] md:py-[15px] font-monty w-fit shadow-lg shadow-black md:hover:scale-[105%] transition-all ease-in duration-[100ms] font-semibold"
+          >
             Get Started
-          </button>
+          </a>
         </div>
       </div>
     </div>
